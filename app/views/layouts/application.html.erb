@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsStupidCoaching</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Rails Stupid Coaching</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +12,11 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div id="container">
+      <div class="box">
+        <h1>Stupid Coaching</h1>
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
